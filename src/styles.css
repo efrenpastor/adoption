@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.wrapper.wrapper--small {
+  max-width: 600px;
+}
+
+.dogPage {
+  min-height: 100vh;
+  padding: 30px;
+  background-color: #222222;
+  text-align: center;
+}
+
+.dogList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 50px;
+}
+
+.dogList img {
+  height: 20vw;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.dogList span {
+  color: #ffffff;
+  display: block;
+  margin-top: 10px;
+}
+
+.dogDetail {
+  padding: 30px;
+}
+.dogDetail__image {
+  max-width: 500px;
+  margin: 0 auto 20px;
+  display: block;
+}
+.dogDetail__properties {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dogDetail__properties span {
+  margin: 0 10px;
+  display: inline-block;
+}
+.dogDetail__properties strong {
+  margin-right: 5px;
+}
+.dogDetail__description {
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+
+.thanksPage {
+  padding: 30px;
+  text-align: center;
+}
+.thanksPage__description {
+  margin-bottom: 20px;
+}
+
+.btnFlat {
+  border-radius: 3px;
+  background: blue;
+  padding: 10px 13px;
+  line-height: 1em;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.btnFlat--center {
+  margin: 0 auto;
+  display: block;
+}
